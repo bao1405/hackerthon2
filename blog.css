@@ -1,0 +1,565 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-form {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header1{
+    width: 100%;
+    height: 200px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.between{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    font-family: Eudoxus Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%
+}
+.between1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    font-family: Eudoxus Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%
+}
+.color{
+    color: var(--Main-Color, #518581);
+    font-family: Eudoxus Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; 
+}
+img{
+    height: 25px;
+    width: 30px;
+}
+.search{
+    display: flex;
+}
+.find .material-symbols-outlined{
+    position: relative;
+    left: 40px;
+}
+input{
+    width: 95px;
+    height: 35px;
+    flex-shrink: 0;
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.right p{
+    font-family: Eudoxus Sans;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar .navbar-left{
+    display: flex;
+    gap: 60px;
+}
+.navbar-left a {
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.left{
+    width: 131px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    left: 10px;
+}
+.left1{
+    width: 131px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    left: 10px;
+}
+.anh img{
+    width: 100px;
+    height: 20px;
+}
+.selection{
+    width: 100%;
+    height: 848px;
+    background-image: url(lap-trinh-nhung-la-gi-01-1.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.text{
+    color: var(--Screen-Color, black);
+    font-family: Eudoxus Sans;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    width: 453px;
+    height: 57px;
+    text-align: center;
+}
+.text a{
+    color: black;
+    
+}
+.text2{
+    color: var(--Screen-Color, #FFF);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    opacity: 0.8;
+    width: 160px;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: blue;
+    margin-left: 145px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.item1{
+    text-align: center;
+    height: 41px;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+.item{
+    position: relative;
+    left: 132px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    color: blue;
+    align-items: center;
+    justify-content: center;
+}
+.in-item{
+    position: relative;
+    top: 80px;
+}
+.anh2 img{
+    margin-left: 300px;
+    height: 848px;
+    width: 556px;
+    margin-top: 1px;
+}
+.work{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.work input{
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    color: greenyellow;
+    text-align: center;
+}
+.left1{
+    width: 131px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    position: relative;
+    left: 10px;
+    margin-top: 50px;
+}
+.left1 h1{
+    font-size: 16px;
+}
+.project{
+    border-top: 1px dashed #ccc;
+}
+.categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: #ccc;
+}
+.categories1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: #ccc;
+}
+.row p{
+    margin-left: 35px;
+}
+.row span{
+    font-size: 20px;
+}
+.row input{
+    background-color: rgb(187, 187, 236);
+    width: 100px;
+    height: 20px;
+    border:1px solid #ccc;
+}
+.touch{
+    margin-top: 50px;
+}
+.under_header{
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    align-items: center;
+}
+.person{
+    font-size: 35px;
+}
+.text3{
+    font-size: 30px;
+}
+.item4{
+    font-size: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: blue;
+}
+.item3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+.item{
+    height: 400px;
+    left: 5px;
+}
+.choice1{
+    width: 260px;
+    height: 100px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    border-radius: 5px;
+    display: flex;
+}
+.icon_img{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    background-image: url(./android.svg);
+}
+.icon_text{
+    width: 130px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.icon2{
+    width: 60px;
+    height: 60px;
+    background-image: url(./Angular.svg);
+    background-size: cover;
+}
+.icon3{
+    width: 60px;
+    height: 60px;
+    background-image: url(./bootstrap.svg);
+    background-size: cover;
+}
+.icon4{
+    width: 60px;
+    height: 60px;
+    background-image: url(./vue.svg);
+    background-size: cover;
+    background-size: cover;
+}
+.icon5{
+    width: 60px;
+    height: 60px;
+    background-image: url(./react.svg);
+    background-size: cover;
+}
+.icon6{
+    width: 60px;
+    height: 60px;
+    background-image: url(./mongodb.svg);
+    background-size: cover;
+}
+.icon7{
+    width: 60px;
+    height: 60px;
+    background-image: url(./laravel.svg);
+    background-size: cover;
+}
+.icon8{
+    width: 60px;
+    height: 60px;
+    background-image: url(./nodejs-icon.svg);
+    background-size: cover;
+}
+
+.head_p{
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    text-align: center;
+}
+.date{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 100px;
+
+}
+.item2{
+    color: rgb(64, 156, 126);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.arr{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-start;
+    position: relative;
+}
+.touch-left input{
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.touch-left h1{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.touch-left p{
+    margin-left: 10px;
+}
+.touch{
+    border-radius: 1px solid #ccc;
+    background-color: white;
+}
+.right{
+    display: flex;
+    left: 100px;
+}
+.end input{
+    height: 50px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: blue;
+    border: 1px solid #ccc;
+    color: white;
+}
+footer{
+    background-color: rgb(6, 6, 170);
+}
+.header1 h1{
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.header1 a{
+    color: white;
+}
+.footer {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 50px;
+	background-color: darkblue;
+    margin-top: 40px;
+    gap: 130px;
+}
+
+.column {
+	gap: 10px;
+	margin-right: 20px;
+    list-style: none;
+}
+
+.column h2 {
+    text-transform: uppercase;
+    color: azure;
+}
+
+.column h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: azure;
+}
+.column li {
+    margin-bottom: 15px;
+    color: grey;
+}
+.h ul li {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: inline; 
+    margin-left: 5px;
+}
+
+.h ul p {
+    margin-left: 10px;
+    color: grey;
+    display: flex;
+}
+.h{
+    width: 100%;
+    height: 40px;
+    background-color: darkblue;
+}
+
+.column {
+    gap: 50px;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border-radius:10px ;
+}

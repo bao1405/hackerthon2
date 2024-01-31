@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" type="image/x-icon" href="logo-sm.png">
+    <title>portfolio</title>
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <img src="logo-sm.png">
+            <div class="anh">
+                <img src="logo-dark.png">
+            </div>
+        </div>
+        <div class="between">
+            <nav class="navbar">
+                <div class="navbar-left">
+                    <a href="index.html">Home</a>
+                    <a href="home.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="blog.html">blogs</a>
+                    <a href="contact.html">contact</a>
+                </div>
+            </nav>
+        </div>
+        <input type="submit" value="Hire Mel >>">
+    </div>
+    <div class="container">
+        <div class="left1">
+            <div class="intro">
+                <h1 id="fullName">John Doe</h1>
+                <p id="jobTitle">Nhà Phát triển Web</p>
+                <p id="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="education">
+                <h2>Học Vấn</h2>
+                <div class="entry" id="educationEntry">
+                    <h3>Thạc sĩ Khoa học Máy tính</h3>
+                    <p>Đại học ABC, 2020-2022</p>
+                </div>
+                <div class="entry">
+                    <input type="text" id="degree" placeholder="Bằng cấp">
+                    <input type="text" id="university" placeholder="Trường Đại học">
+                    <input type="text" id="eduDate" placeholder="Ngày học">
+                    <button onclick="addEducation()">Thêm Học Vấn</button>
+                </div>
+            </div>
+            <div class="experience">
+                <h2>Kinh Nghiệm Làm Việc</h2>
+                <div class="entry" id="experienceEntry">
+                    <h3>Nhà Phát triển Web Senior</h3>
+                    <p>Công ty ABC Tech Solutions, 2022-nay</p>
+                    <p>Dẫn đầu đội phát triển trong việc tạo ra các ứng dụng web sáng tạo.</p>
+                </div>
+                <div class="entry">
+                    <input type="text" id="position" placeholder="Vị trí">
+                    <input type="text" id="company" placeholder="Công ty">
+                    <input type="text" id="expDate" placeholder="Ngày làm việc">
+                    <button onclick="addExperience()">Thêm Kinh Nghiệm</button>
+                </div>
+            </div>
+        </div>
+        <button onclick="saveToLocalStorage()">Lưu Thông Tin</button>
+    </div>
+    <div class="footer">
+        <div class="column">
+            <h2>
+                <img src="logo-sm.png" alt=""> selfown
+            </h2>
+            <li>In an ideal world this text wouldn't exist,a client would</li>
+            <li>acknowledge the importance of having web copy</li>
+            <li>before the design starts.</li>
+            <div class="arr">
+                <img src="./facebook.png" width="30px" height="30px"> 
+                <img src="./google.png" width="30px" height="30px"> 
+                <img src="./github.png" width="30px" height="30px">
+                <img src="./instagram.png"width="30px" height="30px">  
+            </div>
+        </div>
+        <div class="column">
+            <h4>Company</h4>
+            <li>Home</li>
+            <li>About</li>
+            <li>services</li>
+        </div>
+        <div class="column">
+            <h4>Information</h4>
+            <li>Resume</li>
+            <li>Client say</li>
+            <li>
+                Projects
+            </li>
+        </div>
+        <div class="column">
+            <h4>More infor</h4>
+            <li>Blog </li>
+            <li>contact</li>
+            <li>
+                Terms & condition
+            </li>
+        </div>
+    </div>
+    <hr  width="100%" color="grey"/>
+    <div class="h">
+        <ul>
+           <p>&copy;2024 Selfown .Created with  <span class="material-symbols-outlined">
+            favorite
+            </span>by Mannatthemes</span>
+           <span style="margin-left: 860px;">- Terms & condition</span>
+        </ul>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>

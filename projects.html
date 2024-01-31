@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo-sm.png">
+    <link rel="stylesheet" href="projects.css">
+    <title>admind</title>
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <img src="logo-sm.png">
+            <div class="anh">
+                <img src="logo-dark.png">
+            </div>
+        </div>
+        <div class="between">
+            <nav class="navbar">
+                <div class="navbar-left">
+                    <a href="index.html">Home</a>
+                    <a href="home.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="blog.html">blogs</a>
+                    <a href="contact.html">contact</a>
+                </div>
+            </nav>
+        </div>
+        <input type="submit" value="Hire Mel >>">
+    </div>
+    <div class="container">
+        <h1>My project</h1>
+        <form id="addProjectForm">
+            <label for="projectName" ></label>
+            <input type="text" id="projectName" placeholder="@ Project Name" required style="width: 150px;">
+
+            <label for="imageURL"></label>
+            <input type="url" id="imageURL" placeholder="@ imageURL" required>
+
+            <label for="projectLink"></label>
+            <input type="url" id="projectLink" placeholder="@ projectLink" style="width: 70px;" required>
+
+            <label for="tags"></label>
+            <input type="text" id="tags" placeholder="@ Tags (comma-separated)" style="width: 180px;" required>
+
+            <button type="button" onclick="addProject()">+New Project</button>
+        </form>
+        <table id="projectTable">
+            <tr>
+                <th>#</th>
+                <th>Project Name</th>
+                <th>Image URL</th>
+                <th>Link</th>
+                <th>Tags</th>
+                <th>Action</th>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        <div class="column">
+            <h2>
+                <img src="logo-sm.png" alt=""> selfown
+            </h2>
+            <li>In an ideal world this text wouldn't exist,a client would</li>
+            <li>acknowledge the importance of having web copy</li>
+            <li>before the design starts.</li>
+            <div class="arr">
+                <img src="./facebook.png" width="30px" height="30px"> 
+                <img src="./google.png" width="30px" height="30px"> 
+                <img src="./github.png" width="30px" height="30px">
+                <img src="./instagram.png"width="30px" height="30px">  
+            </div>
+        </div>
+        <div class="column">
+            <h4>Company</h4>
+            <li>Home</li>
+            <li>About</li>
+            <li>services</li>
+        </div>
+        <div class="column">
+            <h4>Information</h4>
+            <li>Resume</li>
+            <li>Client say</li>
+            <li>
+                Projects
+            </li>
+        </div>
+        <div class="column">
+            <h4>More infor</h4>
+            <li>Blog </li>
+            <li>contact</li>
+            <li>
+                Terms & condition
+            </li>
+        </div>
+    </div>
+    <hr  width="100%" color="grey"/>
+    <div class="h">
+        <ul>
+           <p>&copy;2024 Selfown .Created with  <span class="material-symbols-outlined">
+            favorite
+            </span>by Mannatthemes</span>
+           <span style="margin-left: 860px;">- Terms & condition</span>
+        </ul>
+    </div>
+    <script src="projects.js"></script>
+</body>
+</html>
